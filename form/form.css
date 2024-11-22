@@ -1,0 +1,68 @@
+form{
+
+    border: solid black;
+    border-radius: 5px;
+    height: 42rem;
+    width: 23rem;
+
+}
+h1{
+    color: white;
+    background-color: orange;
+}
+.in1{
+width: 20rem;
+height: 1rem;
+margin: 0rem 2rem 1rem 0rem ;
+}
+.in2{
+    width: 20rem;
+    height: 1rem;
+    margin: 0rem 2rem 1rem 0rem ;  
+}
+.in3{
+    width: 20rem;
+    height: 1rem;
+    margin: 0rem 2rem 1rem 0rem ;
+}
+.in4{
+    width: 20rem;
+    height: 1rem;
+    margin: 0rem 2rem 1rem 0rem ;
+}
+.in5{
+    width: 20rem;
+    height: 1rem;
+    margin: 0rem 2rem 1rem 0rem ;
+}
+
+.div1{
+    width: 20rem;
+height: 1rem;
+margin: 0rem 2rem 1rem 0rem ;
+}
+.div2{
+    width: 20rem;
+height: 1rem;
+margin: 0rem 2rem 1rem 0rem ;
+}
+.div3{
+    margin-top:1rem ;
+    margin-left: 1rem;
+}
+.dv{
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color:black;
+    color:white;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    margin-top: 9rem;
+}
+.txt{
+    margin: 0rem 2rem 1rem 0rem ; 
+}

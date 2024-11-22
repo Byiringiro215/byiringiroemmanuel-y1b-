@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+   
+<h1><u>HARVEST</u></h1>
+<h2>Start your free 30 day trial</h2>
+<p>Fully functional, no credit card required</p>
+<form method="post" action="form.php" enctype="multipart/form-data">
+    <div class="div3">
+<label>First Name</label>
+<input type="text"  class="in1" name="fname" required ><br>
+<label>Last Name</label>
+<input type="text"  name="sname" class="in2"><br>
+<div class="div1">
+<label>Gender:</label>
+<label>Male</label>
+<input type="radio" value="Male" name="male">
+<label>Female</label>
+<input type="radio" value="Female" name="female"><br>
+</div>
+<label>Company</label>
+<input type="text" placeholder="Enter company name" class="in3" name="company"><br>
+<label>Email </label>
+<input type="email" class="in3" name="email" required><br>
+<label>Contact Phone</label>
+<input type="tel" minlength="10" maxlength="10" pattern="\d{10}" class="in4" name="contact"><br>
+<label>Password</label>
+<input type="password" minlength="8" maxlength="12" class="in5" name="password"><br>
+<label>Account files</label>
+<input type="file" accept=".doc,.txt,.ppt,.docx" class="in6" name="file"><br>
+<label>Choose range:</label>
+<input type="range" name="range" class="range"><br>
+<label>Choose color:</label>
+<input type="color" name="color" class="color"><br>
+<div class="div2">
+<label>Team Size</label>
+<select required name="teamsize">
+<option>you only</option>
+<option>2-5</option>
+<option>6-10</option>
+<option>10-20</option>
+    </select><br>
+    <label for="time">Choose visit time:</label>
+    <input type="time" id="time" name="time" name="time"><br>
+    <label>Account description:</label>
+ <textarea class="txt" placeholder=" accountdescription" name="txt"></textarea> <br> 
+<label>
+    <input type="checkbox">I agree with all the terms.
+    <label>
+</div>
+<button class="btn" type="submit">Create an account</button>
+</div>
+    </form> 
+</body>
+</html>
